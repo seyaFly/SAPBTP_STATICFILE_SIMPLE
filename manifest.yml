@@ -1,0 +1,9 @@
+---
+applications:
+- name: static
+  memory: 100M
+  path: dist
+  buildpacks: 
+    - staticfile_buildpack
+  routes: 
+    - route: 91ccc175trial-static.cfapps.ap21.hana.ondemand.com 
